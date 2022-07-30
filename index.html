@@ -14,124 +14,122 @@
 
 </head>
 
-<body class="bg-blueGrayish">
-
-    <nav class="relative flex flex-row justify-between p-2 ml-32 w-9/12">
-        <div class="mt-5 ml-4 hover:opacity-30">
-            <a href="index.html"> <img src="images/logo.png" alt="Logo"></a>
-        </div>
-
-        <div
-            class="flex flex-row justify-between items-center h-12 w-64 bg-dullBlue rounded-3xl space-x-3 drop-shadow-xl p-3 mt-5 ">
-            <a href=""><img src="images/icons8-facebook.svg" alt="facebook" height="25" width="25"
-                    class="hover:opacity-30"></a>
-            <a href=""><img src="images/icons8-twitter-48.png" alt="twitter" height="25" width="25"
-                    class="hover:opacity-30"></a>
-            <a href=""><img src="images/icons8-instagram-48.png" alt="instagram" height="25" width="25"
-                    class="hover:opacity-30"></a>
-            <a href=""><img src="images/icons8-github.svg" alt="github" height="25" width="25"
-                    class="hover:opacity-30"></a>
-            <a href=""><img src="images/icons8-linkedin-circled.svg" alt="linkedIn" height="25" width="25"
-                    class="hover:opacity-30"></a>
+<body class="bg-blueGrayish scroll-smooth text-whitishgrey">
+    <nav class="relative container mx-auto p-4">
+        <div class="flex items-center justify-between">
+            <div class="pt-2">
+                <a href=""><img class="hover:opacity-25 transition delay-75" src="/images/logo.png" alt=""></a>
+            </div>
+            <div class="hidden md:flex space-x-6 bg-dullBlue rounded-3xl drop-shadow-xl h-12 w-64 items-center p-4">
+                <a href=""><img class="hover:opacity-25 transition delay-75 " src="/images/icons8-facebook.svg"
+                        height="25" width="25" alt=""></a>
+                <a href=""><img class="hover:opacity-25 transition delay-75" src="images/icons8-instagram-48.png"
+                        height="25" width="25" alt=""></a>
+                <a href=""><img class="hover:opacity-25 transition delay-75" src="images/icons8-twitter-48.png"
+                        height="25" width="25" alt=""></a>
+                <a href=""><img class="hover:opacity-25 transition delay-75" src="/images/icons8-github-48.png"
+                        height="25" width="25" alt=""></a>
+                <a href=""><img class="hover:opacity-25 transition delay-75" src="/images/icons8-linkedin-circled.svg"
+                        height="25" width="25" alt=""></a>
+            </div>
         </div>
     </nav>
-
-
-    <!--header text and Image.-->
-    <div class="container flex flex-col w-full justify-between items-center space-y-10 ml-36 mt-10">
-        <div class="container flex space-x-16">
-            <div class="container flex flex-col space-y-10">
-
-                <header>
-                    <h1 class="text-9xl text-whitishgrey drop-shadow-2xl">
-                        Hi, I'm
-                    </h1>
-                    <h1 class="text-9xl text-dullOrange drop-shadow-2xl">
-                        Amenya
-                    </h1>
-                </header>
-
-                <section class="space-y-7">
-                    <p class="text-whitishgrey text-2xl">A web developer and designer</p>
-
-                    <div class="flex flex-row justify-between w-64 space-x-10 pt-2">
-                        <a id="aboutBtn" href=""
-                            class="flex justify-center items-center w-32 h-9 text-whitishgrey text-sm bg-dullBlue rounded-3xl drop-shadow-lg hover:opacity-30 hover:text-dullOrange">About
-                            me</a>
-                        <a id="portBtn" href=""
-                            class="flex justify-center items-center w-36 h-9 text-whitishgrey text-sm bg-dullOrange rounded-3xl drop-shadow-lg hover:opacity-30 ">Download
-                            CV</a>
-                    </div>
-                    <div class="flex flex-row space-x-3 mt-10">
-                        <p class="text-whitishgrey text-xl">Find out more</p><a href=""><img
-                                src="images/icons8-next-page-50.png" width="25" height="25"
-                                class="hover:opacity-30"></a>
-                    </div>
-                </section>
-            </div>
-            <img src="images/Saly-13.png" alt="image" width="500" height="500">
-        </div>
-
-
-
-        <h3 class="text-dullOrange ml-10 ">About me</h3>
-        <div class="space-y-10">
-            <div class="flex w-9/12 h-36 items-center text-whitishgrey p-6 bg-dullBlue rounded-md ml-36">
-                <p>I am a final year Information Technology Major, born in Nigeria.
-                    Currently a student of Easern Mediterranean University, Cyprus. I have
-                    experience in many fields of software design and also game design. I
-                    find it exciting and use most of my time learning new technologies and
-                    tools.
-                    <br>
-
-                    Here are some technologies I've been working with lately:
+    <section id="hero">
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
+                    Hi, my name is <span class="text-7xl text-dullOrange md:text-8xl">Amenya</span>.
+                </h1>
+                <p class="max-w-md text-center md:text-left">
+                    I'm a Web developer and Designer.
                 </p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="#"
+                        class="p-3 px-6 pt-2 text-whitishgrey text-sm font-semibold rounded-full items-center bg-dullOrange hover:opacity-25 hover:font-bold transition delay-75">
+                        Here's my CV
+                    </a>
+                </div>
             </div>
-            <div class="flex flex-row w-8/12 ml-32 opacity-60">
+            <div class="md:w-1/2">
+                <img src="/images/Saly-13.png" alt="">
 
-                <img src="images/icons8-html-5-144.png" alt="html" height="75" width="75">
-                <img src="images/icons8-css3-144.png" alt="css" height="75" width="75">
-                <img src="images/icons8-javascript-144.png" alt="js" height="75" width="75">
-                <img src="images/icons8-react-native-64.png" alt="react" height="75" width="75">
-                <img src="images/icons8-c-sharp-logo-2-144.png" alt="csharp" height="75" width="75">
-                <img src="images/icons8-git-144.png" alt="git" height="75" width="75">
-                <img src="images/icons8-unity-150.png" alt="unity" height="75" width="75">
-                <img src="images/icons8-figma-144.png" alt="figma" height="75" width="75">
-                <img src="images/icons8-adobe-illustrator-144.png" alt="illustrator" height="75" width="75">
-                <img src="images/icons8-adobe-photoshop-144.png" alt="photoshop" height="75" width="75">
             </div>
         </div>
+    </section>
+    <section id="about">
+        <div class="container flex flex-col w-11/12 mx-auto mt-10 p-4 pr-3 bg-dullBlue rounded-xl md:w-1/2 ">
+            <h1 class="text-dullOrange font-bold text-center mb-3">
+                About Me.
+            </h1>
+            <p class="text-sm text-left md:text-left mb-3 mx-3">
+                &nbsp; I am a final year Information Technology Major, born in Nigeria.
+                Currently a student of Easern Mediterranean University, Cyprus.
+                I have experience in many fields of software design and also game design.
+                I find it exciting and use most of my time learning new technologies and tools.
+                There is always so much to look forward to and I'm open to them all.
+                I also have an interest in photography and especially music given I play a guitar any chance I get.
+                I am ready to dive into the dev world and putting pieces together to achieve this dream.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="text-center mt-24">
+            <h1 class="font-bold text-dullOrange"> Projects.</h1>
+        </div>
+        <div class="container flex flex-col w-11/12 mx-auto p-4 mt-3 space-y-7 md:flex-row md:space-x-7">
 
+            <div
+                class="container relative flex bg-dullBlue rounded-sm mx-auto p-4 transition delay-75 hover:scale-110 hover:cursor-pointer">
+                <p class="text-whitishgrey text-sm hover:cursor-pointer md:flex-1">This is a simple <span
+                        class="text-dullOrange">Calendar</span>
+                    Web Applcation made with
+                    Javascript-Html-CSS</p>
 
-        <h3 class="text-dullOrange pt-32 ml-10">Projects</h3>
+                <div class="absolute bottom-0 right-4 flex flex-row space-x-2 my-1">
+                    <a href="">
+                        <img src="/images/icons8-github-24.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="/images/icons8-link-24.png" alt="">
+                    </a>
+                </div>
 
+            </div>
 
-        <div class="flex flex-row w-max justify-between space-x-12 ml-8">
-            <div class="w-72 h-44 p-7 rounded-md bg-dullBlue ">
-                <div class="flex w-40">
-                    <p class="text-whitishgrey text-sm">This is a simple To-do-List Web Applcation made with
-                        Javascript-Html-CSS</p>
+            <div
+                class="container relative flex bg-dullBlue rounded-sm mx-auto p-4 transition delay-75 hover:scale-110 hover:cursor-pointer">
+                <p class="text-whitishgrey text-sm hover:cursor-pointer md:flex-1">This is a simple <span
+                        class="text-dullOrange">Form/Signup</span> Static WebPage
+                    Javascript-Html-CSS</p>
+
+                <div class="absolute bottom-0 right-4 flex flex-row space-x-2 my-1">
+                    <a href="">
+                        <img src="/images/icons8-github-24.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="/images/icons8-link-24.png" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="w-72 h-44 p-7 rounded-md bg-dullBlue">
-                <div class="flex w-40">
-                    <p class="text-whitishgrey text-sm">This is a simple To-do-List Web Applcation made with
-                        Javascript-Html-CSS</p>
-                </div>
-            </div>
-            <div class="w-72 h-44 p-7 rounded-md bg-dullBlue">
-                <div class="flex w-40">
-                    <p class="text-whitishgrey text-sm">This is a simple To-do-List Web Applcation made with
-                        Javascript-Html-CSS</p>
+
+            <div
+                class="container relative flex bg-dullBlue rounded-sm mx-auto p-4 transition delay-75 hover:scale-110 hover:cursor-pointer">
+                <p class="text-whitishgrey text-sm hover:cursor-pointer md:flex-1">This is a simple <span
+                        class="text-dullOrange">To-do-List</span>
+                    Web Applcation made with
+                    Javascript-Html-CSS</p>
+
+                <div class="absolute bottom-0 right-4 flex flex-row space-x-2 my-1">
+                    <a href="">
+                        <img src="/images/icons8-github-24.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="/images/icons8-link-24.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-
-    <footer class="w-auto grid place-items-center pt-32">
-        <p class="text-xs text-whitishgrey">designed by I.Amenya</p>
-    </footer>
-    <script src="script.js"></script>
+    </section>
 </body>
 
 </html>
