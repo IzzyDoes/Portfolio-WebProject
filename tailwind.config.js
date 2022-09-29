@@ -14,9 +14,12 @@ module.exports = {
          'pinkishRed': '#E94560',
          'dullOrange': '#CA6035',
          'dullBlue': '#26265A',
-         'otherdullOrange': '##96411e'
-       }
-    },
+         'otherdullOrange': '#96411e'
+       },
+       fontFamily: {
+        Poppins : ['Poppins', 'sans-serif']
+      }
+    }, 
   },
   plugins: [
     // ...
