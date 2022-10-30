@@ -689,14 +689,6 @@ video {
   width: 91.666667%;
 }
 
-.w-auto{
-  width: auto;
-}
-
-.w-60{
-  width: 15rem;
-}
-
 .w-56{
   width: 14rem;
 }
@@ -820,10 +812,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-52{
-  padding: 13rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -854,6 +842,11 @@ video {
   font-family: Poppins, sans-serif;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -869,21 +862,12 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .text-whitishgrey{
@@ -894,10 +878,6 @@ video {
 .text-dullOrange{
   --tw-text-opacity: 1;
   color: rgb(202 96 53 / var(--tw-text-opacity));
-}
-
-.opacity-75{
-  opacity: 0.75;
 }
 
 .opacity-90{
